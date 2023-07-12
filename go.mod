@@ -10,10 +10,14 @@ require (
 	github.com/stretchr/testify v1.7.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.19.1
-	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/tools v0.1.7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	honnef.co/go/tools v0.2.1 // indirect
+)
+
+require (
+	github.com/golangci/golangci-lint v1.42.1
+	github.com/heroku/terrier v0.0.0-20200623122804-c3da2d1e1468
 )
 
 require (
@@ -45,7 +49,6 @@ require (
 	github.com/go-toolsmith/astcopy v1.0.0 // indirect
 	github.com/go-toolsmith/astequal v1.0.0 // indirect
 	github.com/go-toolsmith/astfmt v1.0.0 // indirect
-	github.com/go-toolsmith/astinfo v1.0.0 // indirect
 	github.com/go-toolsmith/astp v1.0.0 // indirect
 	github.com/go-toolsmith/pkgload v1.0.1 // indirect
 	github.com/go-toolsmith/strparse v1.0.0 // indirect
@@ -58,7 +61,6 @@ require (
 	github.com/golangci/dupl v0.0.0-20180902072040-3e9179ac440a // indirect
 	github.com/golangci/go-misc v0.0.0-20180628070357-927a3d87b613 // indirect
 	github.com/golangci/gofmt v0.0.0-20190930125516-244bba706f1a // indirect
-	github.com/golangci/golangci-lint v1.42.1 // indirect
 	github.com/golangci/lint-1 v0.0.0-20191013205115-297bf364a8e0 // indirect
 	github.com/golangci/maligned v0.0.0-20180506175553-b1d89398deca // indirect
 	github.com/golangci/misspell v0.3.5 // indirect
@@ -73,7 +75,6 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/heroku/terrier v0.0.0-20200623122804-c3da2d1e1468 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jgautheron/goconst v1.5.1 // indirect
 	github.com/jingyugao/rowserrcheck v1.1.0 // indirect
@@ -92,7 +93,6 @@ require (
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
-	github.com/mattn/goveralls v0.0.11 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mbilski/exhaustivestruct v1.2.0 // indirect
 	github.com/mgechev/dots v0.0.0-20210922191527-e955255bf517 // indirect
@@ -109,14 +109,11 @@ require (
 	github.com/phayes/checkstyle v0.0.0-20170904204023-bfd46e6a821d // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/polyfloyd/go-errorlint v0.0.0-20210903085826-e4f368f0ae69 // indirect
-	github.com/prometheus/client_golang v1.11.0 // indirect
+	github.com/prometheus/client_golang v1.11.1 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.31.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
-	github.com/quasilyte/go-consistent v0.0.0-20200404105227-766526bf1e96 // indirect
 	github.com/quasilyte/go-ruleguard v0.3.7 // indirect
-	github.com/quasilyte/go-ruleguard/dsl v0.3.6 // indirect
-	github.com/quasilyte/go-ruleguard/rules v0.0.0-20210808102645-3eefd90fe3e6 // indirect
 	github.com/quasilyte/regex/syntax v0.0.0-20210819130434-b3f0c404a727 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/ryancurrah/gomodguard v1.2.3 // indirect
